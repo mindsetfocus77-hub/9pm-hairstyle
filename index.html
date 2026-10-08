@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>9PM Hairstyle · Queer barbershop en Gràcia, Barcelona</title>
+<meta name="description" content="Barbería y peluquería queer en Gràcia, Barcelona. Cortes para mujeres, hombres y personas no binarias, cortes de afirmación de género, todo tipo de pelo y el mismo precio para todo el mundo. Cita por WhatsApp: 663 54 88 44.">
+<meta name="theme-color" content="#111013">
+<!-- Propuesta de diseño, todavía no es la web oficial: que no salga en buscadores. Quitar al publicarla de verdad. -->
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="9PM Hairstyle · Queer barbershop · Barcelona">
+<meta property="og:description" content="Un corte que te representa. Safe space, todo tipo de pelo y el mismo precio para todo el mundo. 4,9 ★ en Google.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1602982903808-29f783644d21?auto=format&fit=crop&w=1200&h=630&q=80">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1'%3E%3Cstop offset='0' stop-color='%23FF6B6B'/%3E%3Cstop offset='.5' stop-color='%23FFE45E'/%3E%3Cstop offset='1' stop-color='%23B48CFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='18' fill='%23111013'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='24' font-weight='900' text-anchor='middle' fill='url(%23g)'%3E9PM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarberShop",
+  "name": "9PM Hairstyle",
+  "image": "https://images.unsplash.com/photo-1602982903808-29f783644d21?auto=format&fit=crop&w=1200&q=80",
+  "telephone": "+34 663 54 88 44",
+  "email": "9pmhairstyle@gmail.com",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Carrer de la Mare de Déu dels Desemparats, 7",
+    "addressLocality": "Barcelona",
+    "postalCode": "08012",
+    "addressRegion": "Barcelona",
+    "addressCountry": "ES"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "14:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Thursday","Friday"], "opens": "16:00", "closes": "20:00" }
+  ],
+  "sameAs": ["https://www.instagram.com/9pm_hairstyle/", "https://www.facebook.com/9PM.BCN/"]
+}
+</script>
+
+<style>
+:root{
+  --bg:#111013;
+  --bg-2:#19171C;
+  --bg-3:#221F26;
+  --cream:#F5EFE6;
+  --cream-2:#E9E1D5;
+  --muted:#ABA4AA;
+  --line:rgba(245,239,230,.12);
+  --pride:linear-gradient(90deg,#FF6B6B,#FFB347,#FFE45E,#6EE7A8,#6EB6FF,#B48CFF);
+  --pink:#FF7AB8;
+  --yellow:#FFE45E;
+  --violet:#B48CFF;
+  --wa:#1FA855;
+  --radius:24px;
+  --display:"Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
+  --sans:"DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --wrap:min(1220px, calc(100% - 48px));
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--cream);font-family:var(--sans);font-size:16.5px;line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--yellow);color:var(--bg)}
+.wrap{width:var(--wrap);margin-inline:auto}
+.skip{position:absolute;left:-999px;top:8px;background:var(--cream);color:var(--bg);padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--yellow);outline-offset:3px;border-radius:6px}
+
+h1,h2,h3{font-family:var(--display);font-weight:800;line-height:.95;margin:0;letter-spacing:-.035em}
+h1{font-size:clamp(52px, 9vw, 132px)}
+h2{font-size:clamp(40px, 5.6vw, 78px)}
+h3{font-size:28px;line-height:1.05;letter-spacing:-.02em}
+.grad{background:var(--pride);-webkit-background-clip:text;background-clip:text;color:transparent}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font:600 12.5px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--cream-2)}
+.eyebrow::before{content:"";width:28px;height:6px;border-radius:6px;background:var(--pride)}
+.lead{font-size:clamp(16.5px, 1.5vw, 19.5px);color:var(--cream-2);max-width:56ch}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:17px 26px;border-radius:999px;font:600 15px/1 var(--sans);text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .3s var(--ease), background .3s, color .3s, border-color .3s, box-shadow .3s;white-space:nowrap}
+.btn svg{width:19px;height:19px;flex:none}
+.btn-cream{background:var(--cream);color:var(--bg)}
+.btn-cream:hover{background:var(--yellow);transform:translateY(-2px) rotate(-1deg)}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{background:#178A45;transform:translateY(-2px) rotate(-1deg)}
+.btn-line{border-color:rgba(245,239,230,.3);color:var(--cream)}
+.btn-line:hover{background:var(--cream);color:var(--bg)}
+.btn-dark{background:var(--bg);color:var(--cream)}
+.btn-dark:hover{background:#000;transform:translateY(-2px)}
+
+.stripe{height:6px;background:var(--pride)}
+
+/* Cabecera */
+.header{position:sticky;top:0;z-index:50}
+.header::before{content:"";position:absolute;inset:0;z-index:-2;opacity:0;background:rgba(17,16,19,.82);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);box-shadow:0 1px 0 var(--line);transition:opacity .35s}
+.header.scrolled::before{opacity:1}
+.header .wrap{display:flex;align-items:center;justify-content:space-between;height:82px;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;line-height:1}
+.logo b{font-family:var(--display);font-weight:800;font-size:34px;letter-spacing:-.05em}
+.logo b span{background:var(--pride);-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo small{font:600 10.5px/1.25 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.nav{display:flex;align-items:center;gap:28px}
+.nav a{text-decoration:none;font-size:15px;font-weight:500;position:relative;padding:6px 0}
+.nav a:not(.btn)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;border-radius:3px;background:var(--pride);transform:scaleX(0);transform-origin:right;transition:transform .4s var(--ease)}
+.nav a:not(.btn):hover::after{transform:scaleX(1);transform-origin:left}
+.nav .btn{padding:13px 18px;font-size:14px}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;padding:3px}
+.lang button{border:0;background:none;font:600 11.5px/1 var(--sans);letter-spacing:.08em;padding:7px 10px;border-radius:999px;cursor:pointer;color:var(--muted)}
+.lang button[aria-pressed="true"]{background:var(--cream);color:var(--bg)}
+.burger{display:none;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:transparent;cursor:pointer;position:relative}
+.burger span,.burger span::before,.burger span::after{position:absolute;left:50%;width:18px;height:2px;background:var(--cream);transform:translateX(-50%);transition:.35s}
+.burger span{top:50%}
+.burger span::before{content:"";top:-6px}
+.burger span::after{content:"";top:6px}
+.menu-open .burger span{background:transparent}
+.menu-open .burger span::before{top:0;transform:translateX(-50%) rotate(45deg)}
+.menu-open .burger span::after{top:0;transform:translateX(-50%) rotate(-45deg)}
+
+/* Hero */
+.hero{padding:30px 0 100px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;width:820px;height:820px;right:-260px;top:-240px;border-radius:50%;background:conic-gradient(from 90deg,#FF6B6B,#FFB347,#FFE45E,#6EE7A8,#6EB6FF,#B48CFF,#FF6B6B);filter:blur(140px);opacity:.28;z-index:-1;pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.hero h1{margin:26px 0 30px}
+.hero .lead{margin:0 0 36px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px}
+.chip{display:inline-flex;align-items:center;gap:10px;padding:10px 15px;border-radius:999px;background:var(--bg-2);border:1px solid var(--line);font-size:14px;font-weight:500}
+.chip b{font-family:var(--display);font-size:18px;font-weight:800}
+.chip .st{color:var(--yellow);letter-spacing:1px}
+.hero-photo{position:relative}
+.hero-photo .img{border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5;transform:rotate(2deg);box-shadow:0 40px 80px -30px rgba(0,0,0,.8);position:relative}
+.hero-photo .img::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+.hero-photo img{width:100%;height:100%;object-fit:cover}
+.sticker{position:absolute;left:-44px;top:40px;width:136px;height:136px;border-radius:50%;background:var(--yellow);color:var(--bg);display:grid;place-items:center;text-align:center;transform:rotate(-12deg);box-shadow:0 20px 40px -14px rgba(0,0,0,.6)}
+.sticker svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 22s linear infinite}
+.sticker text{font:700 11px var(--sans);letter-spacing:.24em;text-transform:uppercase;fill:var(--bg)}
+.sticker b{font-family:var(--display);font-size:30px;line-height:.9;font-weight:800}
+@keyframes spin{to{transform:rotate(360deg)}}
+.tag2{position:absolute;right:-18px;bottom:46px;background:var(--cream);color:var(--bg);border-radius:18px;padding:14px 18px;transform:rotate(-3deg);font-weight:600;font-size:15px;box-shadow:0 20px 40px -14px rgba(0,0,0,.6)}
+.tag2 i{font-style:normal;display:block;font-family:var(--display);font-size:22px;font-weight:800;line-height:1.05}
+
+/* Cinta */
+.ticker{background:var(--cream);color:var(--bg);overflow:hidden;border-block:6px solid transparent;border-image:var(--pride) 1}
+.ticker-track{display:flex;width:max-content;animation:marquee 30s linear infinite;padding:18px 0}
+.ticker span{font-family:var(--display);font-weight:800;font-size:28px;letter-spacing:-.02em;padding:0 24px;white-space:nowrap}
+.ticker span::after{content:"✦";margin-left:48px;font-size:20px;vertical-align:4px}
+@keyframes marquee{to{transform:translateX(-50%)}}
+
+section{position:relative}
+section[id]{scroll-margin-top:72px}
+.section{padding:clamp(84px, 11vw, 150px) 0}
+.head{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:end;margin-bottom:60px}
+.head h2{margin-top:18px}
+.head .lead{margin:0}
+
+/* Valores */
+.values{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.val{border-radius:var(--radius);padding:30px 26px;background:var(--bg-2);border:1px solid var(--line);position:relative;overflow:hidden;transition:transform .4s var(--ease)}
+.val:hover{transform:translateY(-6px) rotate(-.6deg)}
+.val .emo{font-size:34px;line-height:1}
+.val h3{font-size:24px;margin:22px 0 10px}
+.val p{margin:0;color:var(--muted);font-size:15.5px}
+.val::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:var(--c, var(--pink))}
+.val:nth-child(1){--c:#FF6B6B}.val:nth-child(2){--c:#FFE45E}.val:nth-child(3){--c:#6EE7A8}.val:nth-child(4){--c:#B48CFF}
+.langs{margin-top:22px;border-radius:var(--radius);border:1px dashed rgba(245,239,230,.25);padding:20px 26px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;color:var(--cream-2)}
+.langs b{font-family:var(--display);font-size:20px;font-weight:800;color:var(--cream)}
+.langs span{font-size:22px}
+
+/* Servicios */
+.svc-section{background:var(--cream);color:var(--bg)}
+.svc-section .eyebrow{color:#4A4550}
+.svc-section .lead{color:#3E3943}
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.svc{border-radius:var(--radius);overflow:hidden;background:#fff;display:flex;flex-direction:column;box-shadow:0 20px 40px -32px rgba(0,0,0,.6);transition:transform .45s var(--ease)}
+.svc:nth-child(odd){transform:rotate(-1deg)}
+.svc:nth-child(even){transform:rotate(1deg)}
+.svc:hover{transform:translateY(-6px) rotate(0)}
+.svc figure{margin:0;aspect-ratio:1;overflow:hidden;background:var(--cream-2)}
+.svc figure img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.svc:hover figure img{transform:scale(1.06)}
+.svc .body{padding:22px 22px 24px;display:flex;flex-direction:column;flex:1}
+.svc h3{font-size:24px;margin-bottom:10px}
+.svc p{margin:0 0 18px;color:#4A4550;font-size:15px}
+.svc .btn{margin-top:auto;padding:13px 16px;font-size:14px}
+.price{margin-top:30px;border-radius:var(--radius);background:var(--bg);color:var(--cream);padding:30px 34px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.price h3{font-size:clamp(26px, 3vw, 38px)}
+.price p{margin:6px 0 0;color:var(--muted);max-width:56ch}
+
+/* Pau */
+.pau-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:center}
+.pau-photo{position:relative}
+.pau-photo .img{border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5;transform:rotate(-2deg)}
+.pau-photo img{width:100%;height:100%;object-fit:cover}
+.years{position:absolute;right:-30px;bottom:-30px;width:160px;height:160px;border-radius:30px;background:var(--pride);color:var(--bg);display:grid;place-items:center;text-align:center;transform:rotate(8deg)}
+.years b{display:block;font-family:var(--display);font-size:64px;line-height:.85;font-weight:800}
+.years span{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.pau h2{margin:18px 0 26px}
+.pau p{color:var(--cream-2);margin:0 0 18px;font-size:17.5px}
+.pau .motto{margin-top:30px;color:var(--cream);font-family:var(--display);font-weight:800;font-size:clamp(26px, 3vw, 36px);line-height:1.05;letter-spacing:-.02em}
+
+/* Galería */
+.gal{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:190px;gap:14px}
+.gal figure{margin:0;border-radius:20px;overflow:hidden;background:var(--bg-3)}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease), filter .6s}
+.gal figure:hover img{transform:scale(1.05)}
+.gal .g1{grid-column:span 2;grid-row:span 2}
+.gal .g2{grid-column:span 2}
+.gal .g3{grid-column:span 2;grid-row:span 2}
+.gal .g4{grid-column:span 2}
+.gal .g5{grid-column:span 3}
+.gal .g6{grid-column:span 3}
+.ig-row{display:flex;justify-content:center;margin-top:36px}
+
+/* Opiniones */
+.reviews{background:var(--bg-2)}
+.rev-top{display:flex;gap:16px;flex-wrap:wrap}
+.big{border-radius:20px;padding:18px 22px;background:var(--bg);border:1px solid var(--line)}
+.big b{font-family:var(--display);font-size:46px;font-weight:800;line-height:1;display:block}
+.big span{font-size:13.5px;color:var(--muted)}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rev{border-radius:var(--radius);padding:30px;background:var(--bg);border:1px solid var(--line);display:flex;flex-direction:column}
+.rev .stars{color:var(--yellow);letter-spacing:2px}
+.rev blockquote{margin:14px 0 24px;font-family:var(--display);font-weight:700;font-size:24px;line-height:1.15;letter-spacing:-.015em}
+.rev footer{margin-top:auto;display:flex;align-items:center;gap:12px;font-size:14px}
+.rev .av{width:40px;height:40px;border-radius:50%;background:var(--pride);color:var(--bg);display:grid;place-items:center;font-weight:800}
+.rev footer b{display:block}
+.rev footer span{color:var(--muted);font-size:12.5px}
+.rev.hl{background:var(--violet);color:var(--bg);border-color:transparent}
+.rev.hl .stars{color:var(--bg)}
+.rev.hl footer span{color:#2A2433}
+.rev.hl .av{background:var(--bg);color:var(--cream)}
+
+/* FAQ */
+.faq-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px}
+.faq h2{margin:18px 0 22px}
+.faq-list details{border-bottom:1px solid var(--line)}
+.faq-list details:first-child{border-top:1px solid var(--line)}
+.faq-list summary{list-style:none;cursor:pointer;padding:24px 56px 24px 0;position:relative;font-family:var(--display);font-weight:700;font-size:23px;line-height:1.2;letter-spacing:-.01em}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary::after{content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;font:400 22px/1 var(--sans);transition:background .3s, color .3s}
+.faq-list details[open] summary::after{content:"−";background:var(--yellow);color:var(--bg);border-color:transparent}
+.faq-list p{margin:0 0 24px;color:var(--cream-2);max-width:62ch}
+
+/* Contacto */
+.visit-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px}
+.visit-card{background:var(--bg-2);border:1px solid var(--line);border-radius:var(--radius);padding:44px}
+.visit-card h2{font-size:clamp(36px,4vw,58px);margin:18px 0 28px}
+.row{display:flex;gap:16px;padding:16px 0;border-top:1px solid var(--line)}
+.row svg{width:22px;height:22px;color:var(--yellow);flex:none;margin-top:3px}
+.row a{text-decoration:none;font-weight:600}
+.row a:hover{text-decoration:underline;text-underline-offset:3px}
+.row small{display:block;color:var(--muted);font-size:14px}
+.hours{width:100%;border-collapse:collapse;font-size:15px}
+.hours td{padding:4px 0}
+.hours td:last-child{text-align:right;color:var(--cream-2)}
+.hours tr.off td:last-child{color:var(--muted)}
+.hours tr.today td{font-weight:700;color:var(--yellow)}
+.visit-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.map{border-radius:var(--radius);overflow:hidden;min-height:480px;position:relative;background:var(--bg-3)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(1) invert(.92) contrast(.9) hue-rotate(180deg)}
+
+/* Cierre */
+.final{padding:clamp(90px,11vw,150px) 0;text-align:center;position:relative;overflow:hidden}
+.final::before{content:"";position:absolute;inset:auto -10% -60% -10%;height:120%;background:conic-gradient(from 180deg at 50% 0%,#FF6B6B,#FFB347,#FFE45E,#6EE7A8,#6EB6FF,#B48CFF,#FF6B6B);filter:blur(120px);opacity:.3;z-index:-1}
+.final h2{font-size:clamp(46px, 8vw, 120px);max-width:12ch;margin:18px auto 24px}
+.final p{color:var(--cream-2);max-width:46ch;margin:0 auto 36px;font-size:18px}
+.final .ctas{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+
+.footer{background:#0B0A0C;color:var(--muted);padding:70px 0 30px;font-size:15px}
+.footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px}
+.footer h4{font:600 11.5px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--cream);margin:8px 0 18px}
+.footer p{margin:0 0 8px}
+.footer a{text-decoration:none;color:var(--cream-2)}
+.footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.social{display:flex;gap:10px;margin-top:20px}
+.social a{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center}
+.social a:hover{background:var(--cream);color:var(--bg);text-decoration:none}
+.social svg{width:18px;height:18px}
+.legal{margin-top:54px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px;color:#7C767C}
+.legal a{color:var(--muted);margin-right:18px}
+
+.wa-float{position:fixed;right:22px;bottom:22px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 18px 36px -12px rgba(31,168,85,.75);transition:transform .3s var(--ease)}
+.wa-float:hover{transform:scale(1.08) rotate(-6deg)}
+.wa-float svg{width:30px;height:30px}
+
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease), transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+.svc.reveal.in:nth-child(odd){transform:rotate(-1deg)}
+.svc.reveal.in:nth-child(even){transform:rotate(1deg)}
+.svc.reveal.in:hover{transform:translateY(-6px) rotate(0)}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+
+@media (max-width:1100px){
+  .values,.svc-grid{grid-template-columns:repeat(2,1fr)}
+  .nav{gap:20px}
+}
+@media (max-width:980px){
+  .nav{position:fixed;inset:0;background:var(--bg);flex-direction:column;justify-content:center;gap:24px;transform:translateY(-100%);visibility:hidden;transition:transform .55s var(--ease), visibility 0s .55s;z-index:-1}
+  .menu-open .nav{transform:none;visibility:visible;transition:transform .55s var(--ease)}
+  .nav a{font-family:var(--display);font-weight:800;font-size:36px;letter-spacing:-.03em}
+  .nav .btn{font-family:var(--sans);font-size:15px;padding:16px 24px;letter-spacing:0}
+  .burger{display:block}
+  .hero-grid,.pau-grid,.faq-grid,.visit-grid,.head{grid-template-columns:1fr}
+  .head{gap:18px}
+  .hero-photo{max-width:480px;margin:0 auto;width:86%}
+  .pau-photo{max-width:460px;width:86%}
+  .rev-grid{grid-template-columns:1fr 1fr}
+  .gal{grid-template-columns:repeat(4,1fr);grid-auto-rows:160px}
+  .gal .g1,.gal .g3{grid-column:span 2;grid-row:span 2}
+  .gal .g2,.gal .g4{grid-column:span 2}
+  .gal .g5,.gal .g6{grid-column:span 2}
+  .footer .cols{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  :root{--wrap:calc(100% - 32px)}
+  body{font-size:16px}
+  .header .wrap{height:72px}
+  .logo b{font-size:30px}
+  .lang{display:none}
+  .menu-open .lang{display:flex}
+  .hero-ctas .btn{flex:1 1 100%}
+  .sticker{left:-18px;top:-26px;width:110px;height:110px}
+  .sticker b{font-size:24px}
+  .tag2{right:-8px;bottom:22px}
+  .values,.svc-grid,.rev-grid{grid-template-columns:1fr}
+  .svc:nth-child(odd),.svc:nth-child(even),.svc.reveal.in:nth-child(odd),.svc.reveal.in:nth-child(even){transform:none}
+  .price{padding:26px 22px}
+  .years{right:-8px;bottom:-26px;width:120px;height:120px}
+  .years b{font-size:48px}
+  .gal{grid-template-columns:1fr 1fr;grid-auto-rows:150px}
+  .gal .g1,.gal .g3{grid-column:span 1;grid-row:span 2}
+  .gal .g2,.gal .g4{grid-column:span 1}
+  .gal .g5,.gal .g6{grid-column:span 2}
+  .visit-card{padding:30px 22px}
+  .map{min-height:340px}
+  .footer .cols{grid-template-columns:1fr}
+  .ticker span{font-size:22px}
+  .wa-float{right:16px;bottom:16px;width:56px;height:56px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.470-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.230-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r=".9" fill="currentColor" stroke="none"/></g></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M14.5 8.5h2.5V5h-2.5A3.5 3.5 0 0 0 11 8.5V11H8.5v3.5H11V21h3.5v-6.5H17l.5-3.5h-3V9a.5.5 0 0 1 .5-.5Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></g></symbol>
+  <symbol id="i-metro" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 11h14M8.5 21 10 17M15.5 21 14 17"/></g></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+</svg>
+
+<div class="stripe" aria-hidden="true"></div>
+<header class="header" id="header">
+  <div class="wrap">
+    <a href="#inicio" class="logo" aria-label="9PM Hairstyle, inicio"><b><span>9PM</span></b><small>Hairstyle<br>Barbershop</small></a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#valores" data-i18n="nav.v">Safe space</a>
+      <a href="#servicios" data-i18n="nav.s">Servicios</a>
+      <a href="#trabajos" data-i18n="nav.t">Trabajos</a>
+      <a href="#opiniones" data-i18n="nav.o">Opiniones</a>
+      <a href="#contacto" data-i18n="nav.c">Contacto</a>
+      <div class="lang" role="group" aria-label="Idioma">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn-cream js-wa" href="https://wa.me/34663548844" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="nav.cta">Pide cita</span></a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="inicio">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow reveal" data-i18n="hero.eyebrow">Queer barbershop · Gràcia, Barcelona</span>
+      <h1 class="reveal d1" data-i18n="hero.title">Un corte que <span class="grad">te representa.</span></h1>
+      <p class="lead reveal d2" data-i18n="hero.lead">Barbería y peluquería para todo el mundo: mujeres, hombres y personas no binarias. Cortes que afirman quién eres, en un espacio seguro y con el mismo precio para todas las personas.</p>
+      <div class="hero-ctas reveal d3">
+        <a class="btn btn-wa js-wa" href="https://wa.me/34663548844" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="hero.cta1">Pide cita por WhatsApp</span></a>
+        <a class="btn btn-line" href="#servicios"><span data-i18n="hero.cta2">Ver servicios</span><svg><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="chips reveal d3">
+        <span class="chip"><b>4,9</b><span class="st">★★★★★</span><span data-i18n="hero.c1">145 opiniones en Google</span></span>
+        <span class="chip"><b>9</b><span data-i18n="hero.c2">años en Gràcia</span></span>
+        <span class="chip"><b>98%</b><span data-i18n="hero.c3">nos recomienda en Facebook</span></span>
+      </div>
+    </div>
+    <div class="hero-photo reveal d2">
+      <div class="img"><img src="https://images.unsplash.com/photo-1602982903808-29f783644d21?auto=format&fit=crop&w=900&q=80" alt="Barbera tatuada cortando el pelo en la barbería" fetchpriority="high"></div>
+      <div class="sticker" aria-hidden="true">
+        <svg viewBox="0 0 136 136"><defs><path id="circ" d="M68,68 m-52,0 a52,52 0 1,1 104,0 a52,52 0 1,1 -104,0"/></defs><text><textPath href="#circ">Safe space · All hair types · Safe space · </textPath></text></svg>
+        <b>💈</b>
+      </div>
+      <div class="tag2"><i>Women · Men</i><span>· Nonbinary</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
+<!-- VALORES -->
+<section class="section" id="valores">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow reveal" data-i18n="va.eyebrow">Más que un corte</span>
+        <h2 class="reveal d1" data-i18n="va.title">Aquí vienes <span class="grad">tal y como eres</span></h2>
+      </div>
+      <p class="lead reveal d2" data-i18n="va.lead">Somos una pequeña barbería de Gràcia con una idea clara: la gente necesita algo más que un corte de pelo. Necesita sentirse vista, escuchada y bienvenida.</p>
+    </div>
+    <div class="values">
+      <div class="val reveal"><div class="emo">🏳️‍🌈</div><h3 data-i18n="v1.t">Safe space</h3><p data-i18n="v1.p">Un negocio LGTBIQA+ donde nadie tiene que dar explicaciones. Y sí, str8 friendly: aquí cabe todo el mundo.</p></div>
+      <div class="val reveal d1"><div class="emo">✂️</div><h3 data-i18n="v2.t">Cortes de afirmación de género</h3><p data-i18n="v2.p">Te ayudamos a encontrar el corte con el que te reconoces al mirarte al espejo.</p></div>
+      <div class="val reveal d2"><div class="emo">⚖️</div><h3 data-i18n="v3.t">Mismo precio para todo el mundo</h3><p data-i18n="v3.p">El precio depende del servicio, nunca de tu género.</p></div>
+      <div class="val reveal d3"><div class="emo">🌀</div><h3 data-i18n="v4.t">Todo tipo de pelo</h3><p data-i18n="v4.p">Liso, ondulado, rizado, afro, largo o rapado. Sabemos trabajarlo.</p></div>
+    </div>
+    <div class="langs reveal"><span>🗣️</span><b data-i18n="lg.t">Hablamos tu idioma</b><span data-i18n="lg.s" style="font-size:16px">Español · English · Română (y un poco de français e italiano)</span></div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="section svc-section" id="servicios">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow reveal" data-i18n="sv.eyebrow">Servicios</span>
+        <h2 class="reveal d1" data-i18n="sv.title">Tu pelo, <span class="grad">tus reglas</span></h2>
+      </div>
+      <p class="lead reveal d2" data-i18n="sv.lead">Trabajamos solo con cita para dedicarte el tiempo que necesitas. Cuéntanos qué tienes en mente por WhatsApp, con fotos si quieres.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc reveal">
+        <figure><img loading="lazy" src="https://images.unsplash.com/photo-1519362909365-f8591adb630e?auto=format&fit=crop&w=700&q=80" alt="Persona con un corte corto moderno"></figure>
+        <div class="body"><h3 data-i18n="s1.t">Corte para todo el mundo</h3><p data-i18n="s1.p">Mujeres, hombres y personas no binarias. Corto, largo, clásico o atrevido.</p>
+          <a class="btn btn-dark js-wa" data-msg="corte" href="https://wa.me/34663548844" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="s.cta">Pedir cita</span></a></div>
+      </article>
+      <article class="svc reveal d1">
+        <figure><img loading="lazy" src="https://images.unsplash.com/photo-1495914510314-ba3164b1321f?auto=format&fit=crop&w=700&q=80" alt="Corte corto con laterales rapados"></figure>
+        <div class="body"><h3 data-i18n="s2.t">Afirmación de género</h3><p data-i18n="s2.p">Con calma, sin juicios y escuchando lo que necesitas. Tu transición, tu ritmo.</p>
+          <a class="btn btn-dark js-wa" data-msg="afirmacion" href="https://wa.me/34663548844" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="s.cta">Pedir cita</span></a></div>
+      </article>
+      <article class="svc reveal d2">
+        <figure><img loading="lazy" src="https://images.unsplash.com/photo-1640301133543-41fe25ad6450?auto=format&fit=crop&w=700&q=80" alt="Degradado hecho con máquina en la barbería"></figure>
+        <div class="body"><h3 data-i18n="s3.t">Barbería y degradados</h3><p data-i18n="s3.p">Fades, rapados y acabados limpios a máquina y a tijera.</p>
+          <a class="btn btn-dark js-wa" data-msg="barberia" href="https://wa.me/34663548844" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="s.cta">Pedir cita</span></a></div>
+      </article>
+      <article class="svc reveal d3">
+        <figure><img loading="lazy" src="https://images.unsplash.com/photo-1555894855-3a55cd1e4339?auto=format&fit=crop&w=700&q=80" alt="Melena rizada vista de espaldas"></figure>
+        <div class="body"><h3 data-i18n="s4.t">Rizos y pelo con textura</h3><p data-i18n="s4.p">Cortes que respetan tu rizo natural y le dan forma.</p>
+          <a class="btn btn-dark js-wa" data-msg="rizos" href="https://wa.me/34663548844" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="s.cta">Pedir cita</span></a></div>
+      </article>
+    </div>
+    <div class="price reveal">
+      <div><h3 data-i18n="pr.t">Equally priced ⚖️</h3><p data-i18n="pr.p">Mismo servicio, mismo precio, seas quien seas. Pregúntanos por WhatsApp y te decimos el precio de lo que buscas.</p></div>
+      <a class="btn btn-cream js-wa" data-msg="precio" href="https://wa.me/34663548844" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="pr.cta">Preguntar precio</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- PAU -->
+<section class="section pau" id="pau">
+  <div class="wrap pau-grid">
+    <div class="pau-photo reveal">
+      <div class="img"><img loading="lazy" src="https://images.unsplash.com/photo-1623119598313-1238896695ce?auto=format&fit=crop&w=800&q=80" alt="Manos tatuadas cortando el pelo con tijeras"></div>
+      <div class="years"><div><b>9</b><span data-i18n="pau.y">años</span></div></div>
+    </div>
+    <div>
+      <span class="eyebrow reveal" data-i18n="pau.eyebrow">Detrás de las tijeras</span>
+      <h2 class="reveal d1" data-i18n="pau.title">Hola, somos <span class="grad">9PM</span></h2>
+      <p class="reveal d2" data-i18n="pau.p1">Llevamos 9 años cortando el pelo en Gràcia. Pau está al frente de la barbería, y nuestras clientas y clientes dicen que tiene «un don en las manos con las tijeras».</p>
+      <p class="reveal d2" data-i18n="pau.p2">Pero lo que más repiten es otra cosa: aquí te escuchan. Hay quien llega a por un corte y sale sintiéndose por fin como quería verse.</p>
+      <p class="motto reveal d3" data-i18n="pau.motto">People need more than just a haircut.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TRABAJOS -->
+<section class="section" id="trabajos" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow reveal" data-i18n="ga.eyebrow">Trabajos</span>
+        <h2 class="reveal d1" data-i18n="ga.title">Cada corte, <span class="grad">una historia</span></h2>
+      </div>
+      <p class="lead reveal d2" data-i18n="ga.lead">Mira lo último que hemos hecho en Instagram. Subimos trabajos nuevos cada semana.</p>
+    </div>
+    <div class="gal">
+      <figure class="g1 reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1578390432942-d323db577792?auto=format&fit=crop&w=800&q=80" alt="Degradado lateral visto de perfil"></figure>
+      <figure class="g2 reveal d1"><img loading="lazy" src="https://images.unsplash.com/photo-1666932521278-75e30409cb02?auto=format&fit=crop&w=800&q=80" alt="Media melena con flequillo"></figure>
+      <figure class="g3 reveal d2"><img loading="lazy" src="https://images.unsplash.com/photo-1678043665925-18c456a7000d?auto=format&fit=crop&w=800&q=80" alt="Persona con el pelo teñido de morado"></figure>
+      <figure class="g4 reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1584864650621-95648f07518e?auto=format&fit=crop&w=800&q=80" alt="Pelo rizado con volumen"></figure>
+      <figure class="g5 reveal d1"><img loading="lazy" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1000&q=80" alt="Herramientas de barbería sobre la mesa"></figure>
+      <figure class="g6 reveal d2"><img loading="lazy" src="https://images.unsplash.com/photo-1601140524145-0c613d5da24d?auto=format&fit=crop&w=1000&q=80" alt="Corte de pelo a tijera de cerca"></figure>
+    </div>
+    <div class="ig-row reveal"><a class="btn btn-line" href="https://www.instagram.com/9pm_hairstyle/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>@9pm_hairstyle</a></div>
+  </div>
+</section>
+
+<!-- OPINIONES -->
+<section class="section reviews" id="opiniones">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow reveal" data-i18n="rv.eyebrow">Opiniones</span>
+        <h2 class="reveal d1" data-i18n="rv.title">Lo dicen <span class="grad">ellos, ellas y elles</span></h2>
+      </div>
+      <div class="rev-top reveal d2">
+        <div class="big"><b>4,9 ★</b><span data-i18n="rv.g1">145 opiniones en Google</span></div>
+        <div class="big"><b>98%</b><span data-i18n="rv.g2">recomienda 9PM en Facebook</span></div>
+      </div>
+    </div>
+    <div class="rev-grid">
+      <article class="rev hl reveal"><div class="stars">★★★★★</div><blockquote>Supiste ver en mí ese hombre trans y hacer magia para que me viera mejor.</blockquote><footer><span class="av">A</span><div><b>Ángel D.</b><span data-i18n="rv.src">Reseña en Google</span></div></footer></article>
+      <article class="rev reveal d1"><div class="stars">★★★★★</div><blockquote>Tiene un don en las manos con sus tijeras.</blockquote><footer><span class="av">J</span><div><b>Jordi S.</b><span data-i18n="rv.src">Reseña en Google</span></div></footer></article>
+      <article class="rev reveal d2"><div class="stars">★★★★★</div><blockquote>Puedes pedir hora y no te hace esperar. Calidad y precio muy bueno.</blockquote><footer><span class="av">S</span><div><b>Silvia O.</b><span data-i18n="rv.src">Reseña en Google</span></div></footer></article>
+    </div>
+    <div class="ig-row reveal"><a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=9PM%20Hairstyle%20Barbershop%20Barcelona" target="_blank" rel="noopener"><span data-i18n="rv.cta">Leer todas las opiniones</span><svg><use href="#i-arrow"/></svg></a></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq" id="faq">
+  <div class="wrap faq-grid">
+    <div>
+      <span class="eyebrow reveal" data-i18n="fq.eyebrow">Preguntas frecuentes</span>
+      <h2 class="reveal d1" data-i18n="fq.title">Todo lo que <span class="grad">quieres saber</span></h2>
+      <p class="lead reveal d2" data-i18n="fq.lead">¿Otra duda? Escríbenos y te respondemos encantades.</p>
+    </div>
+    <div class="faq-list reveal">
+      <details open><summary data-i18n="fq1.q">¿Cómo pido cita?</summary><p data-i18n="fq1.a">Solo por WhatsApp, al 663 54 88 44. Trabajamos únicamente con cita para que no tengas que esperar.</p></details>
+      <details><summary data-i18n="fq2.q">¿Cuánto cuesta un corte?</summary><p data-i18n="fq2.a">Depende del servicio, nunca de tu género: mismo trabajo, mismo precio. Escríbenos y te decimos el precio de lo que buscas.</p></details>
+      <details><summary data-i18n="fq3.q">¿Tengo que ser LGTBIQA+ para venir?</summary><p data-i18n="fq3.a">¡Para nada! Somos un negocio queer y un espacio seguro, y también somos str8 friendly. Aquí es bienvenida cualquier persona que venga con respeto.</p></details>
+      <details><summary data-i18n="fq4.q">¿Cortáis pelo rizado o afro?</summary><p data-i18n="fq4.a">Sí, trabajamos todo tipo de pelo. Si tienes dudas, mándanos una foto y lo hablamos.</p></details>
+      <details><summary data-i18n="fq5.q">¿En qué idiomas me podéis atender?</summary><p data-i18n="fq5.a">En español, inglés y rumano, y un poco de francés e italiano.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section" id="contacto" style="padding-top:0">
+  <div class="wrap visit-grid">
+    <div class="visit-card reveal">
+      <span class="eyebrow" data-i18n="vi.eyebrow">Contacto</span>
+      <h2 data-i18n="vi.title">Te esperamos en <span class="grad">Gràcia</span></h2>
+      <div class="row"><svg><use href="#i-pin"/></svg><div><a href="https://www.google.com/maps/dir/?api=1&destination=Carrer%20de%20la%20Mare%20de%20D%C3%A9u%20dels%20Desemparats%207%2C%2008012%20Barcelona" target="_blank" rel="noopener">Carrer de la Mare de Déu dels Desemparats, 7</a><small>Gràcia · 08012 Barcelona</small></div></div>
+      <div class="row"><svg><use href="#i-metro"/></svg><div><span data-i18n="vi.metro">Metro Fontana (L3) y Joanic (L4)</span><small data-i18n="vi.metro2">A pocos minutos a pie</small></div></div>
+      <div class="row"><svg><use href="#i-wa"/></svg><div><a class="js-wa" href="https://wa.me/34663548844" target="_blank" rel="noopener">663 54 88 44</a><small data-i18n="vi.wa">Citas solo por WhatsApp</small></div></div>
+      <div class="row"><svg><use href="#i-mail"/></svg><div><a href="mailto:9pmhairstyle@gmail.com">9pmhairstyle@gmail.com</a></div></div>
+      <div class="row"><svg><use href="#i-clock"/></svg><table class="hours" id="hours" aria-label="Horario"></table></div>
+      <div class="visit-actions">
+        <a class="btn btn-wa js-wa" href="https://wa.me/34663548844" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="vi.cta">Pide cita</span></a>
+        <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&destination=Carrer%20de%20la%20Mare%20de%20D%C3%A9u%20dels%20Desemparats%207%2C%2008012%20Barcelona" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg><span data-i18n="vi.route">Cómo llegar</span></a>
+      </div>
+    </div>
+    <div class="map reveal d1">
+      <iframe title="Mapa: 9PM Hairstyle" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=9PM%20Hairstyle%20Barbershop%2C%20Carrer%20de%20la%20Mare%20de%20D%C3%A9u%20dels%20Desemparats%207%2C%20Barcelona&z=16&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <span class="eyebrow reveal" data-i18n="fi.eyebrow">Tu próxima cita</span>
+    <h2 class="reveal d1" data-i18n="fi.title">Ven como eres. <span class="grad">Sal como quieres.</span></h2>
+    <p class="reveal d2" data-i18n="fi.p">Escríbenos por WhatsApp, cuéntanos qué te apetece y te buscamos hueco.</p>
+    <div class="ctas reveal d3">
+      <a class="btn btn-wa js-wa" href="https://wa.me/34663548844" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="fi.cta">Pide cita por WhatsApp</span></a>
+      <a class="btn btn-line" href="https://www.instagram.com/9pm_hairstyle/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>Instagram</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a href="#inicio" class="logo"><b><span>9PM</span></b><small>Hairstyle<br>Barbershop</small></a>
+        <p style="margin-top:20px;max-width:34ch" data-i18n="ft.about">Queer barbershop en Gràcia. Cortes para todo el mundo, en un espacio seguro y con el mismo precio para todas las personas.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/9pm_hairstyle/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+          <a href="https://www.facebook.com/9PM.BCN/" target="_blank" rel="noopener" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="ft.c">Contacto</h4>
+        <p><a class="js-wa" href="https://wa.me/34663548844" target="_blank" rel="noopener">WhatsApp · 663 54 88 44</a></p>
+        <p><a href="mailto:9pmhairstyle@gmail.com">9pmhairstyle@gmail.com</a></p>
+      </div>
+      <div>
+        <h4 data-i18n="ft.d">Dirección</h4>
+        <p>C. Mare de Déu dels Desemparats, 7<br>08012 Barcelona</p>
+      </div>
+      <div>
+        <h4 data-i18n="ft.m">Menú</h4>
+        <p><a href="#valores" data-i18n="nav.v">Safe space</a></p>
+        <p><a href="#servicios" data-i18n="nav.s">Servicios</a></p>
+        <p><a href="#opiniones" data-i18n="nav.o">Opiniones</a></p>
+        <p><a href="#faq" data-i18n="ft.f">Preguntas frecuentes</a></p>
+      </div>
+    </div>
+    <div class="legal">
+      <div><a href="#" data-i18n="ft.l1">Aviso legal</a><a href="#" data-i18n="ft.l2">Privacidad</a><a href="#" data-i18n="ft.l3">Cookies</a></div>
+      <div>© <span id="year">2026</span> 9PM Hairstyle · <span data-i18n="ft.by">Diseño web:</span> Mystic</div>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float js-wa" href="https://wa.me/34663548844" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
+
+<script>
+(function(){
+  var PHONE="34663548844";
+  var EN={
+    "skip":"Skip to content",
+    "nav.v":"Safe space","nav.s":"Services","nav.t":"Work","nav.o":"Reviews","nav.c":"Contact","nav.cta":"Book now",
+    "hero.eyebrow":"Queer barbershop · Gràcia, Barcelona",
+    "hero.title":"A haircut that <span class=\"grad\">represents you.</span>",
+    "hero.lead":"A barbershop and hair salon for everyone: women, men and nonbinary people. Gender-affirming haircuts in a safe space, with the same price for everyone.",
+    "hero.cta1":"Book on WhatsApp","hero.cta2":"See services","hero.c1":"145 Google reviews","hero.c2":"years in Gràcia","hero.c3":"recommend us on Facebook","hero.tag":"· Nonbinary",
+    "va.eyebrow":"More than a haircut","va.title":"Come <span class=\"grad\">as you are</span>",
+    "va.lead":"We're a small barbershop in Gràcia with a simple idea: people need more than just a haircut. They need to feel seen, heard and welcome.",
+    "v1.t":"Safe space","v1.p":"An LGBTQIA+ business where nobody has to explain themselves. And yes, str8 friendly: everyone fits here.",
+    "v2.t":"Gender-affirming haircuts","v2.p":"We help you find the cut that makes you recognise yourself in the mirror.",
+    "v3.t":"Same price for everyone","v3.p":"The price depends on the service, never on your gender.",
+    "v4.t":"All hair types","v4.p":"Straight, wavy, curly, afro, long or buzzed. We know how to work it.",
+    "lg.t":"We speak your language","lg.s":"Español · English · Română (and a bit of français and italiano)",
+    "sv.eyebrow":"Services","sv.title":"Your hair, <span class=\"grad\">your rules</span>",
+    "sv.lead":"Appointments only, so we can give you all the time you need. Tell us what you have in mind on WhatsApp, with photos if you like.",
+    "s1.t":"Haircuts for everyone","s1.p":"Women, men and nonbinary people. Short, long, classic or bold.",
+    "s2.t":"Gender affirmation","s2.p":"Calm, judgement-free and listening to what you need. Your transition, your pace.",
+    "s3.t":"Barbering & fades","s3.p":"Fades, buzz cuts and clean finishes with clippers and scissors.",
+    "s4.t":"Curls & textured hair","s4.p":"Cuts that respect and shape your natural curl.",
+    "s.cta":"Book",
+    "pr.t":"Equally priced ⚖️","pr.p":"Same service, same price, whoever you are. Ask us on WhatsApp and we'll tell you the price of what you're after.","pr.cta":"Ask the price",
+    "pau.y":"years","pau.eyebrow":"Behind the scissors","pau.title":"Hi, we're <span class=\"grad\">9PM</span>",
+    "pau.p1":"We've been cutting hair in Gràcia for 9 years. Pau runs the shop, and clients say Pau has “a gift with the scissors”.",
+    "pau.p2":"But what they repeat most is something else: here, you're listened to. Some people come in for a haircut and leave finally looking the way they wanted to.",
+    "pau.motto":"People need more than just a haircut.",
+    "ga.eyebrow":"Work","ga.title":"Every cut, <span class=\"grad\">a story</span>","ga.lead":"See our latest work on Instagram. New cuts every week.",
+    "rv.eyebrow":"Reviews","rv.title":"Straight from <span class=\"grad\">our clients</span>","rv.g1":"145 Google reviews","rv.g2":"recommend 9PM on Facebook","rv.src":"Google review","rv.cta":"Read all reviews",
+    "fq.eyebrow":"FAQ","fq.title":"Everything <span class=\"grad\">you want to know</span>","fq.lead":"Another question? Message us, we're happy to help.",
+    "fq1.q":"How do I book?","fq1.a":"Only on WhatsApp, at +34 663 54 88 44. We work by appointment only, so you never have to wait.",
+    "fq2.q":"How much is a haircut?","fq2.a":"It depends on the service, never on your gender: same work, same price. Message us and we'll tell you the price.",
+    "fq3.q":"Do I have to be LGBTQIA+ to come?","fq3.a":"Not at all! We're a queer business and a safe space, and we're also str8 friendly. Anyone who comes with respect is welcome.",
+    "fq4.q":"Do you cut curly or afro hair?","fq4.a":"Yes, we work with all hair types. If in doubt, send us a photo and we'll talk it through.",
+    "fq5.q":"Which languages do you speak?","fq5.a":"Spanish, English and Romanian, plus a bit of French and Italian.",
+    "vi.eyebrow":"Contact","vi.title":"See you in <span class=\"grad\">Gràcia</span>","vi.metro":"Metro Fontana (L3) & Joanic (L4)","vi.metro2":"A few minutes' walk","vi.wa":"Appointments on WhatsApp only","vi.cta":"Book now","vi.route":"Directions",
+    "fi.eyebrow":"Your next appointment","fi.title":"Come as you are. <span class=\"grad\">Leave as you want.</span>","fi.p":"Message us on WhatsApp, tell us what you fancy and we'll find you a slot.","fi.cta":"Book on WhatsApp",
+    "ft.about":"Queer barbershop in Gràcia. Haircuts for everyone, in a safe space, with the same price for all.","ft.c":"Contact","ft.d":"Address","ft.m":"Menu","ft.f":"FAQ","ft.l1":"Legal notice","ft.l2":"Privacy","ft.l3":"Cookies","ft.by":"Web design:"
+  };
+  var MSG={
+    es:{base:"¡Hola! Vengo de vuestra web y me gustaría pedir cita 💈",corte:"¡Hola! Vengo de vuestra web y me gustaría pedir cita para un corte ✂️",afirmacion:"¡Hola! Vengo de vuestra web y me gustaría pedir cita para un corte de afirmación de género 🏳️‍⚧️",barberia:"¡Hola! Vengo de vuestra web y me gustaría pedir cita para un degradado / barbería 💈",rizos:"¡Hola! Vengo de vuestra web y me gustaría pedir cita para cortar mi pelo rizado 🌀",precio:"¡Hola! Vengo de vuestra web, ¿me decís el precio de un corte? 😊"},
+    en:{base:"Hi! I found you on your website and I'd like to book an appointment 💈",corte:"Hi! I found you on your website and I'd like to book a haircut ✂️",afirmacion:"Hi! I found you on your website and I'd like to book a gender-affirming haircut 🏳️‍⚧️",barberia:"Hi! I found you on your website and I'd like to book a fade / barber cut 💈",rizos:"Hi! I found you on your website and I'd like to book a cut for my curly hair 🌀",precio:"Hi! I found you on your website, could you tell me the price of a haircut? 😊"}
+  };
+  // Horario según Google (pendiente de confirmar con 9PM). 0 = domingo.
+  var HOURS={1:[],2:[],3:[[600,840],[960,1200]],4:[[600,840],[960,1200]],5:[[600,840],[960,1200]],6:[],0:[]};
+  var DAYS={es:["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"],en:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]};
+  var T={es:{closed:"Cerrado",menu:"Abrir menú",close:"Cerrar menú"},en:{closed:"Closed",menu:"Open menu",close:"Close menu"}};
+
+  var lang="es";
+  try{ lang=localStorage.getItem("9pm-lang") || ((navigator.language||"").slice(0,2)==="en"?"en":"es"); }catch(e){}
+
+  function fmt(m){ var h=Math.floor(m/60), mi=m%60; return h+":"+(mi<10?"0":"")+mi; }
+  function today(){
+    var p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Madrid",weekday:"short"}).formatToParts(new Date()), o={};
+    p.forEach(function(x){o[x.type]=x.value;}); return ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(o.weekday);
+  }
+  function renderHours(){
+    var d0=today(), rows="";
+    [1,2,3,4,5,6,0].forEach(function(d){
+      var r=HOURS[d], v=r.length? r.map(function(s){return fmt(s[0])+"–"+fmt(s[1]);}).join(" · ") : T[lang].closed;
+      rows+='<tr class="'+(d===d0?"today ":"")+(r.length?"":"off")+'"><td>'+DAYS[lang][d]+'</td><td>'+v+'</td></tr>';
+    });
+    document.getElementById("hours").innerHTML=rows;
+  }
+
+  var ES={};
+  document.querySelectorAll("[data-i18n]").forEach(function(el){ var k=el.getAttribute("data-i18n"); if(!(k in ES)) ES[k]=el.innerHTML; });
+  function setWa(){ document.querySelectorAll(".js-wa").forEach(function(a){ a.href="https://wa.me/"+PHONE+"?text="+encodeURIComponent(MSG[lang][a.getAttribute("data-msg")||"base"]); }); }
+  function buildTicker(){
+    var it = lang==="en" ? ["Women","Men","Nonbinary","All hair types","Same price for everyone","Safe space","Str8 friendly"] : ["Mujeres","Hombres","Personas no binarias","Todo tipo de pelo","Mismo precio para todo el mundo","Safe space","Str8 friendly"];
+    var h=it.map(function(x){return "<span>"+x+"</span>";}).join(""); document.getElementById("ticker").innerHTML=h+h;
+  }
+  function setLang(l){
+    lang=l; document.documentElement.lang=l;
+    document.querySelectorAll("[data-i18n]").forEach(function(el){ var k=el.getAttribute("data-i18n"), v=l==="en"?EN[k]:ES[k]; if(v!=null) el.innerHTML=v; });
+    document.querySelectorAll(".lang button").forEach(function(b){ b.setAttribute("aria-pressed", b.dataset.lang===l?"true":"false"); });
+    setWa(); buildTicker(); renderHours();
+    try{ localStorage.setItem("9pm-lang", l); }catch(e){}
+  }
+  document.querySelectorAll(".lang button").forEach(function(b){ b.addEventListener("click", function(){ setLang(b.dataset.lang); }); });
+
+  var header=document.getElementById("header");
+  function onScroll(){ header.classList.toggle("scrolled", window.scrollY>10); }
+  window.addEventListener("scroll", onScroll, {passive:true}); onScroll();
+  var burger=document.getElementById("burger");
+  function toggleMenu(force){
+    var open=typeof force==="boolean"?force:!document.body.classList.contains("menu-open");
+    document.body.classList.toggle("menu-open", open);
+    burger.setAttribute("aria-expanded", open);
+    burger.setAttribute("aria-label", open?T[lang].close:T[lang].menu);
+    document.body.style.overflow=open?"hidden":"";
+  }
+  burger.addEventListener("click", function(){ toggleMenu(); });
+  document.querySelectorAll("#nav a").forEach(function(a){ a.addEventListener("click", function(){ toggleMenu(false); }); });
+  document.addEventListener("keydown", function(e){ if(e.key==="Escape") toggleMenu(false); });
+
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} }); }, {threshold:.12, rootMargin:"0px 0px -40px 0px"});
+    document.querySelectorAll(".reveal").forEach(function(el){ io.observe(el); });
+  } else { document.querySelectorAll(".reveal").forEach(function(el){ el.classList.add("in"); }); }
+
+  document.getElementById("year").textContent=new Date().getFullYear();
+  setLang(lang);
+})();
+</script>
+</body>
+</html>
